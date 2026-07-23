@@ -6,10 +6,18 @@
 credentials*.json
 service_account*.json
 
-# 機密ファイル（原本は置かない）
+# 機密ファイル（原本は置かない。要点だけをMarkdownで残す）
 *.pdf
 *.xlsx
 *.docx
+*.pptx
+
+# 音声・動画（文字起こしだけを 素材/ に残す）
+*.mp3
+*.m4a
+*.wav
+*.mp4
+*.mov
 
 # OS・エディタ
 .DS_Store
