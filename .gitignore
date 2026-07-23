@@ -1,0 +1,18 @@
+# 認証情報（絶対にコミットしない）
+.env
+.env.*
+*.key
+*.pem
+credentials*.json
+service_account*.json
+
+# 機密ファイル（原本は置かない）
+*.pdf
+*.xlsx
+*.docx
+
+# OS・エディタ
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
