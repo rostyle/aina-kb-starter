@@ -11,11 +11,17 @@ AIが「あなた」を理解して、あなたの代わりに考え・作業す
 ## はじめかた（15分）
 
 ### ① このテンプレを自分のものにする
-このページ右上の緑のボタン **「Use this template」→「Create a new repository」** を押す。
 
-- Repository name: `my-kb`（好きな名前でOK）
-- **Private を必ず選ぶ** ← ここ重要。自分のことを書く場所なので非公開にします
-- 「Create repository」
+**→ [自分のナレッジベースを作る](https://github.com/new?template_name=aina-kb-starter&template_owner=rostyle&name=my-kb&visibility=private&description=%E7%A7%81%E3%81%AE%E3%83%8A%E3%83%AC%E3%83%83%E3%82%B8%E3%83%99%E3%83%BC%E3%82%B9)**
+
+このリンクを開くと、**名前も「非公開（Private）」も設定済みの画面**が出ます。
+あとは緑の **「Create repository」** を1回押すだけ。**入力するところはありません。**
+
+<details><summary>手動でやる場合</summary>
+
+このページ右上の **「Use this template」→「Create a new repository」** を押し、
+Repository name に `my-kb` を入れて、**必ず「Private」を選んで**ください（選び忘れると、書いた内容が世界中から見えてしまいます）。
+</details>
 
 ### ② Claude Codeにつなぐ
 [claude.ai/code](https://claude.ai/code) を開く（Claude Proのアカウントでログイン）。
