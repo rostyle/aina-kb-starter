@@ -19,6 +19,10 @@ service_account*.json
 *.mp4
 *.mov
 
+# 共有プロジェクト（別リポジトリの置き場。中身はそれぞれのリポジトリで管理する）
+共有/*
+!共有/README.md
+
 # OS・エディタ
 .DS_Store
 Thumbs.db
